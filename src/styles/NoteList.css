@@ -1,0 +1,184 @@
+#notes-container {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 25px;
+}
+
+.note {
+  /* flex-items*/
+
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  height: 220px;
+  padding: 1rem;
+
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgb(80, 80, 80);
+
+  position: relative;
+
+  white-space: wrap;
+  word-break: break-all;
+  
+  background-color: #f8f8f8;
+}
+
+.note>h2 {
+  font-size: 18px;
+  padding-left: 7px;
+  margin: 0;
+}
+
+.note>p {
+  font-size: 16px;
+  padding-left: 7px;
+  margin-top: 8px;
+}
+
+.note>span {
+  font-size: 15px;
+  position: absolute;
+  left: 14px;
+  bottom: 36px;
+}
+
+#edit-icon {
+  position: absolute;
+  right: 50px;
+  bottom: 11px;
+
+  font-size: 1.5rem;
+  color: black;
+}
+
+#edit-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#color-container {
+  display: flex;
+  gap: 10px;
+
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+}
+
+.color-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(79, 79, 79);
+  box-shadow: 1px 1px 2px rgb(56, 56, 56);
+}
+
+.color-btn:hover {
+  cursor: pointer;
+}
+
+.white {
+  background-color: #f8f8f8;
+}
+
+.red {
+  background-color: #ffcdd2;
+}
+
+.yellow {
+  background-color: #f0f4c3;
+}
+
+.green {
+  background-color: #b3e6cc;
+}
+
+.blue {
+  background-color: #d9e3f0;
+}
+
+.active-color {
+  transform: scale(1.2);
+  border: 2px solid rgb(0, 0, 0);
+  transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+#delete-btn {
+  position: absolute;
+  right: 15px;
+  bottom: 11px;
+
+  font-size: 1.4rem;
+  color: black;
+}
+
+#delete-btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media (max-width: 1300px) {
+
+  #notes-container {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .note {
+    width: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  #notes-container {
+    width: 90%;
+  }
+
+  #edit-icon {
+    visibility: visible !important;
+  }
+
+  #color-container {
+    visibility: visible !important;
+  }
+
+  #delete-btn {
+    visibility: visible !important;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .note>h2 {
+    font-size: 16px;
+  }
+
+  .note>p {
+    font-size: 14px;
+  }
+
+  .note>span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .note {
+    height: 235px;
+  }
+}

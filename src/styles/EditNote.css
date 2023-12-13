@@ -1,0 +1,29 @@
+.modal-area {
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 15px;
+    padding: 15px;
+    outline: none;
+    resize: none;
+}
+
+.modal-small {
+    padding-left: 7px;
+}
+
+.modal-btn {
+    width: 70px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#cancel-btn {
+    background-color: rgb(234, 20, 20);
+}
+
+#save-btn {
+    background-color: rgb(26, 26, 236);
+}

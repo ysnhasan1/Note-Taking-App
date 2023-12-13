@@ -1,0 +1,48 @@
+form {
+    margin-top: 2rem;
+    padding: 1.5rem;
+
+    width: 80%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+
+    box-shadow: 0 0 3px #6c78b0;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+}
+
+small {
+    font-weight: bold;
+    color: #6c78b0;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+#empty-div {
+    height: 1.2rem;
+}
+
+#add-btn {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1.5rem;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: #6c78b0;
+}
+
+#plus-icon {
+    color: azure;
+    font-size: 30px;
+}

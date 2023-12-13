@@ -1,0 +1,21 @@
+#zero-note-container {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 10rem;
+    color: #9aa0a6;
+}
+
+@media (max-width: 600px) {
+
+    #zero-note-container {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #zero-note-container {
+        font-size: 0.8rem;
+    }
+}
