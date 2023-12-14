@@ -1,14 +1,16 @@
 # Note-Taking-App
-Creating a Note Taking App using Typescript, React.js, Redux Toolkit, MUI v5.
 
-`This website created for "Smarty Yazılım Hizmetleri Internship Study Case"`
+This website created for "Smarty Yazılım Hizmetleri Internship Study Case"
 
 ## About The Project
-* In this project, I wanted to create a Not Taking App using `Typescript`, `React.js`, `Redux Toolkit` and `MUI v5`. 
-
-* State management is very easy using Redux Toolkit. It allows that using a state on different components.
-
-* `Local Storage: Notes you added are not deleted when the page is refreshed.`
+* In this project, I wanted to create a Not Taking App using `Typescript`, `React.js`, `Redux Toolkit` and `MUI v5`.
+* Users can add a new note by entering a title and content.
+* Added notes are displayed as a list on the page.
+* Users can edit a note. (title and content change)
+* Users can delete a note.
+* Users can add color to their notes.
+* For each note, the creation date and the last date of update is displayed.
+* Added notes are not deleted when the page is refreshed. They are stored in `Local Storage`.
 
 * `The website is responsive to all screen sizes.`
 
