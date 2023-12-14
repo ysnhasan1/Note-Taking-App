@@ -1,2 +1,2 @@
 # Note-Taking-App
-Creating a Note Taking App using Typescript, React.js, Redux, MUI v5.
+Creating a Note Taking App using Typescript, React.js, Redux Toolkit, MUI v5.
