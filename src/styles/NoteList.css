@@ -29,7 +29,8 @@
   position: relative;
 
   white-space: wrap;
-  word-break: break-all;
+  word-break: break-word;
+  word-wrap: break-word;
   
   background-color: #f8f8f8;
 }
