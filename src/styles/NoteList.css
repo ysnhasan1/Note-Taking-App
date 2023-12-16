@@ -148,18 +148,6 @@
   #notes-container {
     width: 90%;
   }
-
-  #edit-icon {
-    visibility: visible !important;
-  }
-
-  #color-container {
-    visibility: visible !important;
-  }
-
-  #delete-btn {
-    visibility: visible !important;
-  }
 }
 
 @media (max-width: 450px) {
