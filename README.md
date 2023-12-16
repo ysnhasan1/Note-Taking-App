@@ -11,7 +11,7 @@
 * Users can add color to their notes.
 * For each note, the creation date and the last date of update is displayed.
 * Added notes are not deleted when the page is refreshed. They are stored in `Local Storage`.
-* `The website is responsive to all screen sizes`
+* `The website is responsive to all screen sizes.`
 
 ## Main Technologies For The Project
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
