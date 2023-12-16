@@ -54,11 +54,6 @@ const NoteList: React.FC = () => {
     // Creating a state for modal
     const [modalShow, setModalShow] = useState(false);
 
-    function editClickFunc(param) {
-        setHoveredNote(param);
-        setModalShow(true);
-    }
-
     return (
         <>
             <List id="notes-container">
@@ -76,7 +71,7 @@ const NoteList: React.FC = () => {
                             <p>{eachNote.content}</p>
                             <span>{eachNote.date}</span>
 
-                            <MdEdit id="edit-icon" onClick={() => editClickFunc(eachNote.id)}
+                            <MdEdit id="edit-icon" onClick={() => setModalShow(true)}
                                 style={{
                                     visibility: hoveredNote === eachNote.id ? 'visible' : 'hidden'
                                 }}
