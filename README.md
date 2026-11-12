@@ -22,7 +22,7 @@
 * You can visit my website by clicking the link below.
 Feel free to share your observations with me.
 
-https://hasan-note-taking-app.netlify.app/
+https://notee-taking-app.netlify.app/
 
 ## Screenshots
 <div align="center">
